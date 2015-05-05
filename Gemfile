@@ -11,6 +11,7 @@ gem 'jquery-rails'
 
 gem 'rails_12factor', group: :production
 
+gem 'puma'
 gem 'rails', '4.0.4'
 gem 'sass-rails'
 gem 'uglifier'
