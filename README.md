@@ -1,6 +1,6 @@
 #Setup
 假设你已经有了 Rails 和 Ember（如最新的 node.js） 开发环境的话：  
-`git clone git@github.com:although2013/emberstart.git`  
+`git clone https://github.com/although2013/emberstart.git`  
 `cd emberstart`  
 `bundle`  
 `rails s`  
@@ -8,6 +8,7 @@
 本页最下方有一张例图。
 
 #Issue
+- ruby 的版本应该不太要紧，如果出错请 Uncomment Gemfile 中的 `ruby 2.1.5`
 - 不要使用 bundle update，这里用了 Rails 4.0.4
 - 提供的 End point 好像被墙了，出现什么 read nonblock错误就挂个 VPN
 
