@@ -1,0 +1,8 @@
+header
+  article
+    .logo
+      h1
+        = link-to 'customers' | Ember Start
+
+section#main
+  = outlet

@@ -1,0 +1,10 @@
+article#customers
+  h1
+    | Customers List
+
+  ul
+    each customer in customers
+      = link-to 'customer' customer tagName="li"
+        = customer.abstract
+
+= outlet

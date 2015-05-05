@@ -1,0 +1,41 @@
+= outlet
+
+article#customer
+  h1
+    contactName
+
+  table.table.table-striped
+    tbody
+      tr
+        td.label CustomerID:
+        td.item = customerID
+      tr 
+        td.label CompanyName:
+        td.item = companyName
+      tr 
+        td.label ContactName:
+        td.item = contactName
+      tr 
+        td.label ContactTitle:
+        td.item = contactTitle
+      tr 
+        td.label Address:
+        td.item = address
+      tr 
+        td.label City:
+        td.item = city
+      tr 
+        td.label Region:
+        td.item = region
+      tr 
+        td.label PostalCode:
+        td.item = postalCode
+      tr 
+        td.label Country:
+        td.item = country
+      tr 
+        td.label Phone:
+        td.item = phone
+      tr 
+        td.label Fax:
+        td.item = fax
