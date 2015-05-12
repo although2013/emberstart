@@ -8,11 +8,12 @@ gem 'emblem-rails'
 gem 'haml-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
+gem 'responders'
 
 gem 'rails_12factor', group: :production
 
 gem 'puma'
-gem 'rails', '4.0.4'
+gem 'rails'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'pry-rails'
