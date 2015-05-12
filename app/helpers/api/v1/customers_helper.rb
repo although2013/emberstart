@@ -3,7 +3,7 @@ module Api::V1::CustomersHelper
   def format_the(str)
     hash = JSON.parse(str).to_hash
 
-    to_snake_case = Proc.new do |h|
+    to_snake_case = ->(h) do
       h["id"] = h["CustomerID"]
       h.keys.each do |keyname|
         h[keyname.underscore] = h.delete(keyname)

@@ -9,7 +9,7 @@
 
 #Issue
 - ruby 的版本应该不太要紧，如果出错请 Uncomment Gemfile 中的 `ruby 2.1.5`
-- 不要使用 bundle update，这里用了 Rails 4.0.4
+- ~~不要使用 bundle update，这里用了 Rails 4.0.4~~ 已经改成 4.2.1
 - 提供的 End point 好像被墙了，出现什么 read nonblock错误就挂个 VPN
 
 
@@ -17,7 +17,7 @@
 我在 Rails Controller 里直接用 http.get odata 的 json 数据，（感觉不是很好  
 odata 返回的数据格式和 Ember 的 json API 要求的好像不太相同，我就自己写了个函数转换了一下  
 把 `CustomerID` 改成 `customer_id`，还加了个 `id` : `hash['id'] = hash['CustomerID']`  
-整个应用也是按照一些 Ember Rails 教程改的，尝试用更新的 gems 但没有成功
+整个应用也是按照一些 Ember Rails 教程改的，~~尝试用更新的 gems 但没有成功~~
 
 
 #Screen shot
